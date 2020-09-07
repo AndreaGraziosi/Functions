@@ -23,8 +23,11 @@ def divide(number_of_cookies,number_of_guests):
 cookies_per_guest = divide(30,5)
 print( cookies_per_guest)
 
-
-
+def add(shirts, shorts):
+     garments = shirts + shorts
+     return garments
+garments = add(6,3)
+print(garments)
 
 
 
