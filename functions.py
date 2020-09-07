@@ -22,13 +22,15 @@ def divide(number_of_cookies,number_of_guests):
     return cookies_per_guest
 cookies_per_guest = divide(30,5)
 print( cookies_per_guest)
-
+#Q7 add() function:
 def add(shirts, shorts):
      garments = shirts + shorts
      return garments
 garments = add(6,3)
 print(garments)
 
+garments = add(10, 7)
+print(garments)
 
 
 
